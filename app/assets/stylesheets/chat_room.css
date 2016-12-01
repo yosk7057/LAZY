@@ -1,5 +1,5 @@
 #chat_room {
-    text-align: right;
+    text-align: left;
     margin: 10px auto;
     padding-top: 10px;
     width: 90%;
@@ -7,9 +7,19 @@
 
 #chat_room > div#messages {
     margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 div#messages > div.message {
+    height: 40px;
+}
 
-    border-bottom: 1px solid #999999;
+.message_content {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin: 10px auto 10px 10px;
+    padding: 5px;
+    background-color: #EFEFEF;
 }
