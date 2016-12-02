@@ -1,2 +1,9 @@
+/*
+*= require fullcalendar
+*= require_tree .
+*= require_self
+*/
 @import "custom.css.scss";
 @import "chat_room.css";
+/*@import "calendar.scss";*/
+
